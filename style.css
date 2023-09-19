@@ -274,6 +274,82 @@ nav .logo img {
     color: #1264a3;
 }
 
+.scr4 .box {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.scr4 .box .content {
+    width: 80%;
+}
+
+.scr4 .box .content .line1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 50px 0px 16px;
+    text-align: center;
+}
+
+.scr4 .box .content .line2 {
+    font-size: 18px;
+    /* font-weight: 600; */
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+.scr4 .box .content .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 16px 0px 64px;
+}
+
+.scr4 .box .content .buttons .btn1 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #611f69;
+    color: white;
+    padding: 19px 40px 20px;
+    border-radius: 3px;
+    border: 1px solid #611f69;
+}
+
+.scr4 .box .content .buttons .btn2 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #611f69;
+    padding: 19px 40px 20px;
+    border-radius: 3px;
+    border: 1px solid #611f69;
+    margin: 16px 0px 0px 8px;
+}
+
+.scr4 .box .content .percent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 18px 0px 16px;
+    padding-top: 24px;
+}
+
+.scr4 .box .content .percent div {
+    width: 190px;
+}
+
+.scr4 .box .content .percent .l1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #611f69;
+    margin-bottom: 4px;
+}
+
+.scr4 .box .content .percent .l2 {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+
 @media (width < 1360px) {
     .scr1 .left {
         width: 46%;
