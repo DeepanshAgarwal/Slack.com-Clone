@@ -197,6 +197,83 @@ nav .logo img {
     width: 100px;
 }
 
+.scr2 {
+    padding-top: 48px;
+    background-color: #f4ede4;
+}
+
+.scr2 .line {
+    padding: 0px 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.scr2 .companies-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scr2 .companies {
+    width: 1010px;
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 6.25rem;
+    margin: 0px 9.375rem; */
+}
+
+.scr2 .companies .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scr3 {
+    background-color: #f4ede4;
+}
+
+.scr3 .card-outer {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.scr3 .card {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scr3 .card .content {
+    width: 500px;
+}
+
+.scr3 .card .video video {
+    height: 21.65rem;
+}
+
+.scr3 .card .content .line1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.scr3 .card .content .line2 {
+    font-size: 17.5px;
+    width: 480px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.scr3 .card .content .line3 {
+    font-size: 17px;
+    color: #1264a3;
+}
+
 @media (width < 1360px) {
     .scr1 .left {
         width: 46%;
