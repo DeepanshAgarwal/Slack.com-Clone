@@ -2,6 +2,7 @@
     margin: 0px;
     border: border-box;
     font-family: Helvetica;
+    /* overflow: hidden; */
 }
 
 .scr1 {
@@ -277,7 +278,7 @@ nav .logo img {
 .scr4 .box {
     display: flex;
     justify-content: center;
-    padding-top: 48px;
+    padding: 48px 0px 24px;
 }
 
 .scr4 .box .content {
@@ -347,7 +348,60 @@ nav .logo img {
 
 .scr4 .box .content .percent .l2 {
     font-size: 14px;
+    line-height: 1.6;
     /* font-weight: 600; */
+}
+
+.scr5 .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.scr5 .box .left {
+    width: 49%;
+}
+
+.scr5 .box .left video {
+    width: 100%;
+    border-radius: 0px 210px 210px 0px;
+}
+
+.scr5 .box .right {
+    width: 49%;
+}
+
+.scr5 .box .right .content {
+    padding: 32px;
+}
+
+.scr5 .box .right .content .line1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.scr5 .box .right .content .line2 {
+    font-size: 16px;
+}
+
+.scr5 .box .right .content .line3 {
+    font-size: 16px;
+}
+
+.scr5 .box .right .content .line4 {
+    font-size: 17px;
+    color: #1264a3;
+    margin-top: 10px;
+    padding: 16px 0px 10px;
+}
+
+.scr5 .last-line {
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
 }
 
 @media (width < 1360px) {
@@ -396,6 +450,18 @@ nav .logo img {
 
     .scr1 .left .left1 div {
         font-size: 5.8vw;
+    }
+
+    .scr5 .box {
+        flex-wrap: wrap;
+    }
+
+    .scr5 .box .left {
+        width: 100%;
+    }
+
+    .scr5 .box .right {
+        width: 100%;
     }
 }
 
