@@ -479,6 +479,139 @@ nav .logo img {
     padding-right: 20px;
 }
 
+.scr7 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+    background-color: #4a154b;
+    /* border-radius: 0% 0% 500px 500px; */
+    clip-path: ellipse(75% 100% at center top);
+}
+
+.scr7 .box .heading {
+    width: 80%;
+    padding: 0px 10%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.scr7 .box .buttons {
+    display: flex;
+}
+
+.scr7 .box .buttons .btn {
+    font-size: 14px;
+    font-weight: bold;
+    color: #611f69;
+    padding: 19px 40px 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.scr7 .box .buttons .btn2 {
+    margin-left: 8px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 .box {
+    width: 80%;
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+.footer1 .box .logo img {
+    width: 50px;
+}
+
+.footer1 .box .menu {
+    display: flex;
+}
+
+.footer1 .box .menu .menu-col {
+    width: 12.875rem;
+}
+
+.footer1 .box .menu .menu-col div {
+    height: 40px;
+    font-size: 14px;
+}
+
+.footer1 .box .menu .menu-col .menu-head {
+    font-weight: bold;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 .box {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer2 .box .box1 {
+    display: flex;
+}
+
+.footer2 .box .box1 .item {
+    margin-right: 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer2 .box .box1 .item div i {
+    margin: 0px 8px;
+}
+
+.footer2 .box .box2 {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.footer2 .box .box2 div {
+    font-size: 14px;
+    color: #1264a3;
+}
+
+.footer2 .box .box2 div i {
+    margin-right: 8px;
+}
+
+.fa-globe {
+    font-size: 15px;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+}
+
+.footer2 .box .box3 i {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.footer3 {
+    width: 80%;
+    padding: 0% 10%;
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
 @media (width < 1360px) {
     .scr1 .left {
         width: 46%;
