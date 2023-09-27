@@ -2,7 +2,6 @@
     margin: 0px;
     border: border-box;
     font-family: Helvetica;
-    /* overflow: hidden; */
 }
 
 .scr1 {
@@ -11,7 +10,6 @@
     padding: 120px 0px 80px;
     padding: auto;
     background-color: #541554;
-    /* border: 2px solid black; */
     display: flex;
     /* display: none; */
 }
@@ -19,8 +17,6 @@
 .scr1 .left {
     height: 100%;
     width: 40%;
-    /* background-color: blue; */
-    /* border: 2px solid black; */
     padding-left: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +26,6 @@
 .scr1 .right {
     height: 400px;
     width: 46%;
-    /* background-color: red; */
-    /* border: 2px solid black; */
     padding-left: 4%;
     overflow: hidden;
 }
@@ -114,7 +108,6 @@
 }
 
 nav {
-    /* background-color: greenyellow; */
     height: 80px;
     width: 80%;
     padding: 0px 10%;
