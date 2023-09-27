@@ -221,12 +221,15 @@ nav .nav-list .right .btn3 {
 }
 
 .scr2 {
+    /* width: auto; */
     padding-top: 48px;
     background-color: #f4ede4;
+    /* display: none; */
 }
 
 .scr2 .line {
-    padding: 0px 100px;
+    /* width: 100%; */
+    padding: 0px 7vw;
     text-align: center;
     font-weight: 600;
     font-size: 14px;
@@ -241,7 +244,7 @@ nav .nav-list .right .btn3 {
 
 .scr2 .companies {
     width: 1010px;
-    height: 74px;
+    /* height: 74px; */
     display: flex;
     justify-content: space-around;
     /* padding: 0px 6.25rem;
@@ -730,7 +733,7 @@ nav .nav-list .right .btn3 {
     }
 } */
 
-/* .scr2,
+/* 
 .scr3,
 .scr4,
 .scr5,
